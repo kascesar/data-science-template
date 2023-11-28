@@ -1,3 +1,11 @@
-hydra-core
-dvc
-ydata-profiling
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+hydra-core = "*"
+dagshub = "*"
+dvc = "*"
+ydata-profiling = "*"
+
