@@ -4,7 +4,7 @@ init-env:
 	@echo "Installing dependencies"
 	pipenv install
 
-env: dependencies
+env:
 	@echo "Activating virtual environment..."
 	pipenv shell
 
