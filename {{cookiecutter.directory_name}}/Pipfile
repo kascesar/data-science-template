@@ -8,4 +8,4 @@ hydra-core = "*"
 dagshub = "*"
 dvc = "*"
 ydata-profiling = "*"
-
+shape = "*"
