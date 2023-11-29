@@ -9,6 +9,7 @@ repos:
     - id: check-yaml
     - id: check-json
     - id: check-added-large-files
+      args: ['--maxkb=2000']
 
   - repo: https://github.com/asottile/reorder-python-imports
     rev: v3.12.0
@@ -32,7 +33,8 @@ repos:
       # Run the linter.
       - id: ruff
         types_or: [ python, pyi, jupyter ]
-        args: [ --fix ]
+        args: [ --fix, --exit-non-zero-on-fix]
       # Run the formatter.
       - id: ruff-format
         types_or: [ python, pyi, jupyter ]
+        # args: [ --fix, --exit-non-zero-on-fix ]
