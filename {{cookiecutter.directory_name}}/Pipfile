@@ -1,4 +1,4 @@
-[[source]]
+	[[source]]
 url = "https://pypi.org/simple"
 verify_ssl = true
 name = "pypi"
@@ -18,3 +18,7 @@ scikit-learn = "*"
 interpret = "*"
 jupyterlab = "*"
 xgboost = "*"
+streamlit = "*"
+gradio = "*"
+altair = "*"
+vega_datasets = "*"
