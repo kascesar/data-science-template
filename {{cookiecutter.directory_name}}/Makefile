@@ -1,13 +1,3 @@
-init-env:
-	@echo "Creating env"
-	pipenv shell
-	@echo "Installing dependencies"
-	pipenv install
-
-env:
-	@echo "Activating virtual environment..."
-	pipenv shell
-
 docs:
 	@echo Save documentation to docs...
 	pdoc src -o docs --force
