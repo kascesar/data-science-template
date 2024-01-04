@@ -1,6 +1,6 @@
 install-os-tools:
-	@echo "installing dvc, pipenv, cookiecutter, pre-commit"
-	pip install dvc pipenv cookiecutter pre-commit
+	@echo "installing dvc, pipenv, pre-commit"
+	pip install dvc pipenv pre-commit
 
 documentation:
 	@echo "Save documentation to docs..."
