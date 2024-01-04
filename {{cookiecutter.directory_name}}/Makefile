@@ -3,3 +3,11 @@ documentation:
 	pdoc src -o docs --force
 	@echo View API documentation...
 	pdoc src --http localhost:8080
+
+install-os-tools:
+       @echo "installing dvc, pipenv, cookiecutter, pre-commit"
+       pip install dvc pipenv cookiecutter pre-commit
+
+requirements:
+       @echo Installing dependencies
+       pipenv install
